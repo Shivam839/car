@@ -1,0 +1,92 @@
+ .cart-Section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 5%;
+      width: 95%;
+    }
+
+    .card {
+      width: 400px;
+      background-color: #e1e0e0;
+      margin-bottom: 20px;
+    }
+
+    .car_img {
+      text-align: center;
+      margin-top: 17px;
+    }
+
+    .card img {
+      width: 90%;
+      border-radius: 10px;
+    }
+
+    .name_year {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .year {
+      border: 1px dotted black;
+      padding: 5px 18px;
+      border-radius: 5px;
+    }
+
+    .car_info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .car_info,
+    .price_button,
+    .name_year {
+      padding: 5px 20px;
+    }
+
+    hr {
+      width: 90%;
+    }
+
+    .price_button {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .price, .buttons{
+      display: flex;
+      align-items: center;
+    }
+
+    .heart {
+      border: none;
+      background-color: lightblue;
+      padding: 10px 10px 7px 10px;
+      margin-right: 8px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .rent_price {
+      padding: 8px 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      border: none;
+      background-color: dodgerblue;
+      color: white;
+    }
+
+    .car_info button {
+      background-color: transparent;
+      border: none;
+      margin-right: 20px;
+    }
+
+    .car_info button svg {
+      margin-right: 12px;
+    }
